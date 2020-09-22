@@ -19,6 +19,7 @@ module.exports = {
 
         gray: {
           ...colors.gray,
+          200: '#f5f5f5',
           300: '#e7e7e7',
           500: '#A4A4A4',
         },
@@ -42,8 +43,7 @@ module.exports = {
       },
 
       margin: {
-        '-0.5' : 'calc(-.5 * .25rem)',
-        '-0.75': 'calc(-.75 * .25rem)',
+        '-0.5': 'calc(-.5 * .25rem)',
       },
     },
 

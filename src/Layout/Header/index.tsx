@@ -14,7 +14,7 @@ export const Header = memo(function Header() {
       </div>
     </Container>
 
-    <Container className="py-10 text-white bg-blue-800">
+    <Container className="pt-10 pb-12 text-white bg-blue-800">
       <div className="mb-6 text-3xl leadind-extra-tight font-bold">26 сентября 2020 года</div>
       <div className="text-xl">Большое спасибо, что Вы с нами в этот важный день начала нашей совместной истории!</div>
     </Container>
