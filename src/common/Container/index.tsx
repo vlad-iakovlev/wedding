@@ -13,6 +13,11 @@ export const Container = memo(function Container(props: {
       props.className,
       {'py-10 xs:py-16': !props.noDefaultPaddingY},
     )}
+
+    style={{
+      paddingLeft : 'env(safe-area-inset-left)',
+      paddingRight: 'env(safe-area-inset-right)',
+    }}
   >
     <div className={cn('col-start-2 px-6 sm:px-12 lg:px-20', props.innerClassName)}>
       {props.children}

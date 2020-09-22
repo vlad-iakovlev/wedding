@@ -32,7 +32,7 @@ export const Party = memo(function Party() {
           <div className="mb-6 text-xl font-semibold">Не заблудитесь!</div>
 
           <div className="mb-4">
-            Лофт находится на втором этаже. Вход в здание со стороны набережной, проход между домом 8c1 и домом 6c4.
+            Лофт находится на втором этаже. Вход в здание со стороны набережной, проход между домом 8c1 и домом 6c3.
             Дверь в арке.
           </div>
 
@@ -43,8 +43,8 @@ export const Party = memo(function Party() {
           <a className="inline-flex items-center hover:text-red-500" href="https://yandex.ru/maps/-/CCQ3Q8WckB" target="_blank">
             <span className="mr-3 font-semibold uppercase">Посмотреть на Яндекс.Картах</span>
 
-            <div className="bg-gray-200 rounded">
-              <div className="ml-1 mb-1 text-2xl leading-none text-red-500 transform -rotate-45">➤</div>
+            <div className="flex-shrink-0 flex justify-center items-center bg-gray-200 rounded">
+              <div className="ml-1 mb-1 text-xl leading-none text-red-500 transform -rotate-45">➤</div>
             </div>
           </a>
         </div>
