@@ -2,7 +2,7 @@ import cn from 'classnames'
 import {Container} from 'common/Container'
 import {Link} from 'common/Link'
 import {memo} from 'react'
-const linkCn = 'block px-1 xs:px-5 py-5 tracking-widest font-medium'
+const linkCn = 'block px-1 xs:px-5 py-5 tracking-widest font-medium hover:text-red-500'
 const activeLinkCn = '-mb-0.5 border-b-4 border-red-500'
 
 export const Header = memo(function Header() {

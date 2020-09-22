@@ -38,7 +38,15 @@ export const Party = memo(function Party() {
 
           <img className="mb-8 w-full rounded-lg" src={require('./assets/loft-photo.png')} />
           <div className="mb-6 text-xl font-semibold">Схема прохода</div>
-          <div>Скоро :)</div>
+          <img className="mb-6 w-full rounded-lg" src={require('./assets/loft-route.png')} />
+
+          <a className="inline-flex items-center hover:text-red-500" href="https://yandex.ru/maps/-/CCQ3Q8WckB" target="_blank">
+            <span className="mr-3 font-semibold uppercase">Посмотреть на Яндекс.Картах</span>
+
+            <div className="bg-gray-200 rounded">
+              <div className="ml-1 mb-1 text-2xl leading-none text-red-500 transform -rotate-45">➤</div>
+            </div>
+          </a>
         </div>
       </div>
     </Container>
