@@ -1,0 +1,37 @@
+/* stylelint-disable at-rule-whitelist, property-whitelist */
+@font-face {
+  font-display: swap;
+  src: url("/static/fonts/Poppins-Light.woff2"), url("/static/fonts/Poppins-Light.woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-family: "Poppins";
+}
+@font-face {
+  font-display: swap;
+  src: url("/static/fonts/Poppins-Regular.woff2"), url("/static/fonts/Poppins-Regular.woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Poppins";
+}
+@font-face {
+  font-display: swap;
+  src: url("/static/fonts/Poppins-Medium.woff2"), url("/static/fonts/Poppins-Medium.woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-family: "Poppins";
+}
+@font-face {
+  font-display: swap;
+  src: url("/static/fonts/Poppins-SemiBold.woff2"), url("/static/fonts/Poppins-SemiBold.woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-family: "Poppins";
+}
+@font-face {
+  font-display: swap;
+  src: url("/static/fonts/Poppins-Bold.woff2"), url("/static/fonts/Poppins-Bold.woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Poppins";
+}
+/* stylelint-enable at-rule-whitelist, property-whitelist */
