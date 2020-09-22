@@ -1,4 +1,4 @@
-const {colors} = require('tailwindcss/defaultTheme')
+const {colors, screens} = require('tailwindcss/defaultTheme')
 
 module.exports = {
   future: {
@@ -49,6 +49,11 @@ module.exports = {
 
     fontFamily: {
       'main': ['Poppins', 'sans-serif'],
+    },
+
+    screens: {
+      ...screens,
+      'xs': '480px',
     },
   },
 

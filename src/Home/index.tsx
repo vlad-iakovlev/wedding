@@ -1,10 +1,11 @@
 import {Container} from 'common/Container'
 import {memo} from 'react'
+import {Title} from 'common/Title'
 
 export const Home = memo(function Home() {
-  return <Container className="py-16">
+  return <Container>
     <div className="max-w-3xl">
-      <div className="mb-10 text-40 leading-extra-tight font-bold">Регистрация</div>
+      <Title>Регистрация</Title>
       <div className="mb-6">Начало церемонии бракосочетания в 11:30 в Дворце бракосочетания в Коломенском</div>
       <div><span className="font-semibold">Площадка:</span> Театральная хоромина</div>
       <div><span className="font-semibold">Адрес:</span> пр-т Андропова, 39с69</div>

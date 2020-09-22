@@ -1,11 +1,12 @@
 import {Container} from 'common/Container'
 import {memo} from 'react'
+import {Title} from 'common/Title'
 
 export const Party = memo(function Party() {
   return <div>
-    <Container className="py-16">
+    <Container>
       <div className="max-w-3xl">
-        <div className="mb-10 text-40 leading-extra-tight font-bold">Торжественная часть</div>
+        <Title>Торжественная часть</Title>
 
         <div className="mb-6">
           Мы очень рады, что Вы проведете этот вечер вместе нами! Вас ждет море отличного настроения, неожиданных
@@ -27,7 +28,7 @@ export const Party = memo(function Party() {
           >loft-rating.ru/loft-na-krasnom-oktyabre</a>
         </div>
 
-        <div className="p-8 rounded-lg shadow-xl">
+        <div className="xs:p-8 xs:rounded-lg xs:shadow-xl">
           <div className="mb-6 text-xl font-semibold">Не заблудитесь!</div>
 
           <div className="mb-4">
@@ -42,9 +43,9 @@ export const Party = memo(function Party() {
       </div>
     </Container>
 
-    <Container className="py-16 bg-gray-200">
+    <Container className="bg-gray-200">
       <div className="max-w-3xl">
-        <div className="mb-10 text-40 leading-extra-tight font-bold">План рассадки</div>
+        <Title>План рассадки</Title>
         <div>Скоро :)</div>
       </div>
     </Container>
