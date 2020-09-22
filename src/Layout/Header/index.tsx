@@ -2,13 +2,15 @@ import cn from 'classnames'
 import {Container} from 'common/Container'
 import {Link} from 'common/Link'
 import {memo} from 'react'
-const linkCn = 'block px-1 xs:px-5 py-5 tracking-widest hover:text-red-500'
+const linkCn = 'block px-2 xs:px-5 py-4 xs:py-5 tracking-wider xs:tracking-widest hover:text-red-500'
 const activeLinkCn = '-mb-0.5 border-b-4 border-red-500'
 
 export const Header = memo(function Header() {
   return <div>
     <Container className="border-gray-300 uppercase" innerClassName="flex flex-wrap" noDefaultPaddingY>
-      <div className="mr-auto py-5 pr-6 tracking-wider font-semibold">Свадьба Владислава и Александры Яковлевых</div>
+      <div className="mr-auto py-4 xs:py-5 pr-6 tracking-wider font-semibold">
+        Свадьба Владислава и Александры Яковлевых
+      </div>
 
       <div className="flex">
         <Link href="/" className={cn(linkCn, 'mr-2 xs:mr-6')} activeClassName={activeLinkCn}>Регистрация</Link>
