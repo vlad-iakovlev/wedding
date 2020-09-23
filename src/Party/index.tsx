@@ -40,7 +40,7 @@ export const Party = memo(function Party() {
           <div className="mb-6 text-xl font-semibold">Схема прохода</div>
           <img className="mb-6 w-full rounded-lg" src={require('./assets/loft-route.png')} />
 
-          <a className="inline-flex items-center hover:text-red-500" href="https://yandex.ru/maps/-/CCQ3Q8WckB" target="_blank">
+          <a className="inline-flex items-center hover:text-red-500" href="https://yandex.ru/maps/-/CCQ3UCA5DA" target="_blank">
             <span className="mr-3 font-semibold uppercase">Посмотреть на Яндекс.Картах</span>
 
             <div className="flex-shrink-0 flex justify-center items-center bg-gray-200 rounded">
