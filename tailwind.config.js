@@ -7,7 +7,7 @@ module.exports = {
   },
 
   plugins: [],
-  purge  : [],
+  purge  : false,
 
   theme: {
     extend: {
