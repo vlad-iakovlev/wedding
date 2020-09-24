@@ -14,9 +14,10 @@ export const Home = memo(function Home() {
 
       <a
         className="inline-flex items-center px-10 py-5 text-xl text-white font-semibold tracking-wide bg-blue-800
-          rounded-full shadow-xl"
+          rounded-full shadow-xl hover:shadow-2xl transition-shadow duration-200 ease-in"
 
-        href="#"
+        href="https://us04web.zoom.us/j/6260066017?pwd=M1FFN1RsaGJKUFFOdXVNdTYwMlZJdz09"
+        target="_blank"
       >Присоединиться</a>
     </div>
   </Container>
