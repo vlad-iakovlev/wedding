@@ -145,6 +145,7 @@ export const Party = memo(function Party() {
       <div className={cn(
         'mb-8 xs:mb-10 sm:grid-cols-2 lg:grid-cols-3 gap-10',
         {'hidden sm:grid': !checkedTable},
+        {'grid': checkedTable},
       )}>
         <Guests guests={guests[0]} table={1} checkedTable={checkedTable} onClick={toggleTable} />
         <Guests guests={guests[1]} table={2} checkedTable={checkedTable} onClick={toggleTable} />
