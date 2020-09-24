@@ -143,7 +143,9 @@ export const Party = memo(function Party() {
       </div>
 
       <div className={cn(
-        'mb-8 xs:mb-10 sm:grid-cols-2 lg:grid-cols-3 gap-10',
+        'mb-8 xs:mb-10 gap-10',
+        'sm:grid-flow-col sm:grid-cols-2 sm:grid-rows-3',
+        'lg:grid-flow-row lg:grid-cols-3 lg:grid-rows-2',
         {'hidden sm:grid': !checkedTable},
         {'grid': checkedTable},
       )}>
