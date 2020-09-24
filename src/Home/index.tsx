@@ -1,6 +1,8 @@
 import {Container} from 'common/Container'
 import {memo} from 'react'
 import {Title} from 'common/Title'
+import getConfig from 'next/config'
+const {publicRuntimeConfig} = getConfig()
 
 export const Home = memo(function Home() {
   return <Container>
@@ -16,7 +18,7 @@ export const Home = memo(function Home() {
         className="inline-flex items-center px-10 py-5 text-xl text-white font-semibold tracking-wide bg-blue-800
           rounded-full shadow-xl hover:shadow-2xl transition-shadow duration-200 ease-in"
 
-        href="https://us04web.zoom.us/j/6260066017?pwd=M1FFN1RsaGJKUFFOdXVNdTYwMlZJdz09"
+        href={publicRuntimeConfig.NEXT_PUBLIC_ZOOM_LINK}
         target="_blank"
       >Присоединиться</a>
     </div>

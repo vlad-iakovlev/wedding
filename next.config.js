@@ -6,4 +6,8 @@ module.exports = R.compose(
 )({
   assetPrefix: basePath + '/',
   basePath: basePath,
+
+  publicRuntimeConfig: {
+    ...R.pickBy((_value, key) => key.startsWith('NEXT_PUBLIC_'), process.env),
+  },
 })
