@@ -34,12 +34,22 @@ module.exports = {
         40: 'calc(40 * 1rem / 16)',
       },
 
+      gridColumnStart: {
+        15: '15',
+        21: '21',
+      },
+
       gridTemplateColumns: {
         '1fr/minmax(0/360)/1fr': '1fr minmax(0, calc(360 * .25rem)) 1fr',
+        '23/1fr'               : 'repeat(23, 1fr)',
       },
 
       margin: {
         '-0.5': 'calc(-.5 * .25rem)',
+      },
+
+      padding: {
+        '4/3': 'calc(4 / 3 * 100%)',
       },
     },
 
@@ -48,8 +58,8 @@ module.exports = {
     },
 
     screens: {
-      ...screens,
       'xs': '480px',
+      ...screens,
     },
   },
 
