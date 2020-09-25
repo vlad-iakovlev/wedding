@@ -23,7 +23,7 @@ export const Guests = memo(function Guests(props: {
     data-table={props.table}
     onClick={props.onClick}
   >
-    <div className="mb-5 text-2xl font-bold">Стол {props.table}</div>
+    <div className="mb-5 text-2xl leading-none font-bold">Стол {props.table}</div>
     {R.map(guest => <div key={guest} className="leading-8">{guest}</div>, props.guests)}
   </div>
 })
