@@ -12,15 +12,6 @@ export const Home = memo(function Home() {
       <div><span className="font-semibold">Площадка:</span> Театральная хоромина</div>
       <div><span className="font-semibold">Адрес:</span> пр-т Андропова, 39с69</div>
       <div className="mb-8"><span className="font-semibold">Заезд:</span> пр-т Андропова, 51</div>
-      <div className="mb-6 text-xl">Вы можете присоединиться к Zoom трансляции церемонии:</div>
-
-      <a
-        className="inline-flex items-center px-10 py-5 text-xl text-white font-semibold tracking-wide bg-blue-800
-          rounded-full shadow-xl hover:shadow-2xl transition-shadow duration-200"
-
-        href={publicRuntimeConfig.NEXT_PUBLIC_ZOOM_LINK}
-        target="_blank"
-      >Присоединиться</a>
     </div>
   </Container>
 })
